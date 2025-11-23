@@ -1,0 +1,68 @@
+/* ウインドウ幅が 479px 以下のときだけ適用 */
+@media screen and (max-width: 479px) {
+
+  .wrapper {
+    width: 200px;
+    height: auto;
+    margin: 40px auto;
+  }
+
+  .top {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:0;
+  }
+
+  .top-inner {
+    height: 80%;
+    position: static;
+    width: 60px;
+    padding: 10px;
+    margin: 0;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .green-box {
+    width: 40px;
+    height: 40px;
+    display: block;
+  }
+
+  .middle-row {
+    display: block;
+    height: auto;
+  }
+
+  .left-block {
+    width: 100%;
+    height: 100px;
+  }
+
+  .right-block {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+
+    height: auto;
+  }
+
+  .pink-box {
+    width: 140px;
+    margin: 0;
+  }
+
+  .bottom {
+    width: 100%;
+    height: 100px;
+  }
+}
