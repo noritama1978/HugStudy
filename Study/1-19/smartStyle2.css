@@ -16,16 +16,25 @@
   }
 
   .top-inner {
-    height: 80%;
+ /*   
     position: static;
     width: 60px;
-    padding: 10px;
     margin: 0;
-
+*/
+    height: 80%;
     display: flex;
     flex-direction: column;
     gap: 10px;
-    align-items: center;
+    align-items: center; 
+
+    position: absolute;
+    top: 50%;
+    right: 70px;
+    transform: translateY(-50%);
+
+    width: 70px;
+    padding: 10px;
+
   }
 
   .green-box {
@@ -51,7 +60,6 @@
     flex-direction: column;
     padding-top: 20px;
     padding-left: 30px;
-    padding-bottom: 10px;
 
     height: auto;
   }
