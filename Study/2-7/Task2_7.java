@@ -26,7 +26,10 @@ public class Task2_7 {
         *   3番目の要素に 「ぶどう」 を代入
         */
 
-       String[] strArray = { "リンゴ", "もも", "ぶどう"};
+        String[] strArray = new String[3];
+        strArray[0] = "りんご";
+        strArray[1] = "もも";
+        strArray[2] = "ぶどう";
 
        // ④ ③で作成した配列の3番目の要素を出力しなさい。
 
